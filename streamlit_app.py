@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="India Petroleum Sales Dashboard")
 @st.cache_data
 def load_data():
     # Read the Excel file
-    df = pd.read_excel('data.xlsx', sheet_name=0)
+    df = pd.read_excel('./data.xlsx', sheet_name=0)
     
     # Clean column names - remove any whitespace and special characters
     df.columns = df.columns.str.strip()
