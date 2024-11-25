@@ -3,9 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 import json
-import geopandas as gpd
-import folium
-from folium.plugins import HeatMap
 
 st.set_page_config(layout="wide", page_title="India Petroleum Sales Dashboard")
 
